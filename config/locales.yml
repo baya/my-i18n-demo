@@ -1,0 +1,35 @@
+locales:
+  zh-s:
+    - CN
+    - CA
+    - US
+  zh-t:
+    - HK
+    - TW
+    - CA
+    - US
+  es:
+    - ES
+    - MX
+    - US
+    - CO
+    - CR
+    - DO
+    - EC
+    - PE
+  de:
+    - DE
+  fr:
+    - FR
+    - CA
+  it:
+    - IT
+  jp:
+    - JP
+  ru:
+    - RU
+  en:
+    - US
+    - GB
+    - CA
+  

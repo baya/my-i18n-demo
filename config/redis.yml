@@ -1,0 +1,7 @@
+i18n:
+  host: 127.0.0.1
+  port: 6379
+  db: 1
+  driver: hiredis
+  thread_safe: true
+  timeout: 200

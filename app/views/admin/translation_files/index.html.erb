@@ -1,0 +1,23 @@
+<h2>Translation Hello World</h2>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+<table>
+  <thead>
+    <th>Locale</th>
+    <th>Key</th>
+    <th>Content</th>
+  </thead>
+  <tbody>
+    <%- @locales.each do |locale| %>
+      <tr>
+	<td><%= locale %></td>
+	<td><%= @key %></td>
+	<td><%= t(@key, locale: locale)%></td>
+      </tr>
+    <%- end %>
+  </tbody>
+</table>

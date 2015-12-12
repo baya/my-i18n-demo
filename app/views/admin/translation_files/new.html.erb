@@ -1,0 +1,10 @@
+<h2>Upload Translation File</h2>
+<%= form_tag admin_translation_files_path, method: 'post', multipart: true do -%>
+  <div>
+    <label>File to Upload(only xls file)</label>
+    <%= file_field_tag 'file' %>
+  </div>
+  <div>
+    <%= submit_tag 'upload' %>
+  </div>
+<% end %>

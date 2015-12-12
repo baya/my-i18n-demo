@@ -38,6 +38,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem "redis"
-gem "hiredis"
+gem 'redis'
+gem 'hiredis'
 gem 'cached_key_value_store'
+gem 'spreadsheet'
